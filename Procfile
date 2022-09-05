@@ -1,1 +1,1 @@
-python crackingtoolsbot.py
+python3 crackingtoolsbot.py
