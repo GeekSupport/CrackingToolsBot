@@ -1,1 +1,1 @@
-python3 crackingtoolsbot.py
+dyno: python -m crackingtoolsbot
